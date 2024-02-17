@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote name="aosp" fetch="https://android.googlesource.com" review="https://android-review.googlesource.com/" />
-  <remote name="mt6789-dev" fetch="https://github.com/Dahlabanteng" revision="udc" />
+  <remote name="mt6789-dev" fetch="https://github.com/GhostSP-0" revision="udc" />
 
   <default revision="master-kernel-build-2021" remote="aosp" sync-j="8" />
 
-  <project path="common" name="kernel_infinix-x678b" remote="mt6789-dev">
+  <project path="common" name="kernel-infinix-x678b" remote="mt6789-dev">
     <linkfile dest="build.config" src="build.config.x678b" />
   </project>
 
