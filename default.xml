@@ -6,8 +6,8 @@
   
   <default revision="master-kernel-build-2021" remote="aosp" sync-j="8" />
 
-  <project path="common" name="kernel-infinix-x678b" remote="mt6789-dev">
-    <linkfile dest="build.config" src="build.config.x678b" />
+  <project path="common" name="kernel-common" remote="mt6789-dev">
+    <linkfile dest="build.config" src="build.config.gki.aarch64" />
   </project>
 
   <project path="mediatek-modules/gpu" name="kernel_mediatek-modules_gpu" remote="mt6789-dev" />
